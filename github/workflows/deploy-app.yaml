@@ -24,9 +24,6 @@ jobs:
      - name: test
        run: npm test
 
-     - name: Build App
-       run: docker build -t test-app .
-
     
        
 
