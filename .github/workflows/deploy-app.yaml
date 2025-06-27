@@ -2,6 +2,7 @@ name: Test App
 on:
   pull_request:
     types: [opened, reopened, synchronize]
+  workflow_dispatch:
 
 jobs:
   test:
@@ -23,6 +24,7 @@ jobs:
      
      - name: test
        run: npm test
+  
 
     
        
